@@ -37,3 +37,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name : Test with unnitest
+      run: |
+        python -m unnitest
