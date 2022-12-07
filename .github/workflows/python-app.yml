@@ -39,4 +39,4 @@ jobs:
         pytest
     - name : Test with unnitest
       run: |
-        python -m unnitest
+        python test_main.py
